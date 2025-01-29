@@ -1,0 +1,120 @@
+/*Welcome to day 9 of Full stack development series*/
+/*today we are going to learn some CSS selectors*/
+/*
+here we have already created a html document lets style the document*/
+
+/*1)Universal Selector - Which is used to apply style to whole document 
+Which is denoted as '*'.    */
+
+/*
+*{
+    color: brown;
+    background-color: aqua;
+}
+*/
+
+/*2)Element selector - Select all the element of same type*/
+/*
+h3{
+    color: blueviolet;
+    font-size: medium;
+}
+*/
+
+/*3)ID Selector - which styles particular element*/
+/*
+#myid{
+    color: crimson;
+    background-color: aqua;
+}
+*/
+
+/*4)Class selector - Selects an element based on their class attribute*/
+/*
+.myclass{
+    color: darkgreen;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: cyan;
+}
+*/
+
+/*Descent Selector - selects what you want to style*/
+/*
+p a{
+    color: brown;
+    background-color: yellow;
+}
+span button{
+    color: white;
+    background-color:blueviolet;
+}
+*/
+
+/*Adjacent Sibling Combinator - style the element immediately after the called element*/
+/*
+p + h3{
+    color: darkred;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+*/
+
+/*Child Combinator - Can style the only level one child*/
+/*
+div>input{
+    color: green;
+}
+*/
+
+/*Attribute selector - Selects elements based on the presence or value of a given attribute*/
+/*
+input[type="text"]{
+    color: blue;
+}
+input[type="password"]{
+    color: green;
+}
+*/
+
+/*Pseudo Class - A keyword added to a selector that specifies a special state of the selected elements*/
+/* for butten effect
+button:hover{
+    color: white;
+    background-color: brown;
+}
+
+/* for after click
+button:active{
+    background-color: yellow;
+}
+*/
+
+
+/*Pseudo elements - a keyword added to selector that lets you style a specific part of the selected elements*/
+/*
+h1::first-letter{
+    color: brown;
+}
+h3::first-letter{
+    color: blue;
+}
+h1::first-line{
+    background-color: yellow;
+}
+*/
+
+/*!important - Used to show the most specific thing in document*/
+
+h1{
+    color: brown ;
+}
+h1{
+    color: blue !important;
+}
+h1{
+    color: aqua;
+    
+}
+
+/* Thank you for joining this live stream 
+Don't forget to Like, share and Subscribe to my channel*/
+
